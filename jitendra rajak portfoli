@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JITENDRA RAJAK | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">JITENDRA<span>.</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3 class="greeting">Welcome to my world</h3>
+      <h1>Hi, I'm <span>JITENDRA RAJAK</span></h1>
+      <h2 class="typing-text">Full-Stack Developer In-the-Making</h2>
+      <p>
+        Building clean, functional, and user-centric digital experiences. 
+        Currently mastering Java, DSA, and modern Web Technologies.
+      </p>
+
+      <div class="buttons">
+        <a href="#projects" class="btn btn-fill">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <img src="IMG20250728155612.jpg" alt="Jitendra Rajak Profile">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-container">
+      <div class="about-card">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h3>Education</h3>
+        <p>Pursuing Degree in Computer Science. Focused on OOPM and Logic Building.</p>
+      </div>
+      <div class="about-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Development</h3>
+        <p>Passionate about crafting clean UI and efficient back-end logic.</p>
+      </div>
+      <div class="about-card">
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>Goals</h3>
+        <p>Aiming to solve real-world problems through scalable software solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section grey-bg" id="skills">
+    <h2 class="section-title">My <span>Expertise</span></h2>
+    <div class="skills-container">
+      <div class="skill-item">
+        <div class="skill-info"><span>HTML/CSS</span><span>90%</span></div>
+        <div class="bar"><span style="width: 90%"></span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span>Java</span><span>80%</span></div>
+        <div class="bar"><span style="width: 80%"></span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span>C/C++</span><span>75%</span></div>
+        <div class="bar"><span style="width: 75%"></span></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span>DSA</span><span>70%</span></div>
+        <div class="bar"><span style="width: 70%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2 class="section-title">Recent <span>Works</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A responsive, high-performance portfolio built with HTML5 & CSS3.</p>
+          <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Algorithm Visualizer</h3>
+          <p>Java-based pattern and logic implementations for DSA practice.</p>
+          <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="contact-wrapper">
+      <form class="contact-form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-fill">Send Message</button>
+      </form>
+      <div class="contact-details">
+        <div class="detail-item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>rajrajak5146@gmail.com</p>
+        </div>
+        <div class="detail-item">
+          <i class="fa-solid fa-phone"></i>
+          <p>+91 83493 26756</p>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Jitendra Rajak. Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
